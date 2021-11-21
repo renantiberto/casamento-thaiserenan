@@ -4,15 +4,131 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Thaís & Renan</title>
   </head>
   <body>
-    <h1>Teste Título</h1>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-      repellendus ipsum exercitationem numquam molestiae illum, quod possimus
-      amet, nesciunt tempore eos consequatur natus rem unde. Aut repellendus ex
-      voluptatem iusto!
-    </p>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">Thaís & Renan</a>
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Os Noivos</a></li>
+            <li><a class="title" href="#rsvp">Presença</a></li>
+            <li><a class="title" href="#cerimonial">A Cerimônia</a></li>
+            <li><a class="title" href="#presents">Presentes</a></li>
+          </ul>
+        </div>
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section" id="home">
+        <div class="container">
+          <div class="image">
+            <img src="./img/img-home.jpg" alt="Os Noivos" />
+          </div>
+          <div class="text">
+            <p>
+              Bem-vindos! Queridos amigos e familiares, o dia mais especial de
+              nossas vidas está chegando e gostaríamos de contar com a presença
+              de todos vocês.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <section class="section" id="about">
+        <div class="container">
+          <h1 class="title">Os noivos</h1>
+          <div class="cards">
+            <div class="">
+              <img src="./img/img-section.jpeg" alt="" />
+            </div>
+
+            <div class="wedding">
+              <div class="woman">
+                <h4 class="title">A noiva</h4>
+                <p>Thaís Luz</p>
+              </div>
+
+              <div class="man">
+                <h4 class="title">O noivo</h4>
+                <p>Renan Tiberto</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="text">
+              <h3>Nossa História</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Molestiae culpa quam a sed repudiandae molestias exercitationem
+                expedita ipsum ullam, labore ratione voluptatum reiciendis
+                commodi itaque possimus optio dolorem maiores vel! Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Iste nobis
+                provident ipsum ab doloremque distinctio nihil debitis, nam,
+                numquam eum reprehenderit soluta commodi et? Aspernatur sunt
+                quam repellendus dignissimos cumque.
+              </p>
+            </div>
+            <div class="text">
+              <h3>O pedido</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Molestiae culpa quam a sed repudiandae molestias exercitationem
+                expedita ipsum ullam, labore ratione voluptatum reiciendis
+                commodi itaque possimus optio dolorem maiores vel! Lorem, ipsum
+                dolor sit amet consectetur adipisicing elit. Quaerat, sint. Quo
+                asperiores adipisci eligendi atque repudiandae suscipit labore
+                delectus sunt incidunt officiis, possimus harum voluptatem,
+                deleniti voluptatum! Tenetur, nulla dolore.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <section class="section" id="rsvp">
+        <div>
+          <div class="text">
+            <h2 class="title">Confirme sua presença</h2>
+            <p>
+              Será incrível ter a sua presença no nosso Grande Dia. Por isso,
+              para que haja organização de demais informações, pedimos que você
+              confirme se estará presente (ou não) no casamento preenchendo este
+              pequeno formulário abaixo!
+            </p>
+            <a class="button" target="_blank" href="#">Confirmar Presença</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <section class="section" id="local"></section>
+
+      <div class="divider-2"></div>
+
+      <section class="section" id="souvenir"></section>
+    </main>
+
+    <script src="./scripts.js"></script>
   </body>
 </html>
