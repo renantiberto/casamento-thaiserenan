@@ -61,6 +61,16 @@ body {
     top: 0;
 }
 
+/* Section Couple */
+.mt-3 img {
+    width: 90%;
+    border-radius: 50%;
+}
+
+.mt-3 h3 {
+    padding-top: 2rem;
+}
+
 /* Nav Bar Style */
 .ww-nav-bar .heart {
     fill: #f26147;
@@ -124,6 +134,7 @@ body {
 
 /* Button Souvenir */
 .button {
+    margin-top: 2rem;
     text-align: center;
 }
 .button-souvenir {
@@ -177,6 +188,14 @@ body {
 }
 
 /* RSVP Style */
+.card-body {
+    background-color: rgba(218, 211, 211, 0.4);
+    border-radius: 5px;
+}
+.form-group label {
+    font-weight: 500;
+}
+
 .ww-rsvp-detail {
     background: url('../images/rsvp-img.jpg') no-repeat center center;
     background-size: cover;
