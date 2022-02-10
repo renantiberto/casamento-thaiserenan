@@ -9,7 +9,7 @@
     justify-content: center;
     gap: 10px;
     margin: 0;
-    padding: 0 30px;
+    padding: 0 10px;
 }
 
 .countdown li {
@@ -31,4 +31,10 @@
 .countdown li span {
     font-style: normal;
     font-size: 2rem;
+}
+
+@media screen and (min-width: 370px) and (max-width: 430px) {
+    .countdown {
+        padding: 0 50px;
+    }
 }
