@@ -6,7 +6,7 @@ body {
 .ww-home-page {
     background: url('../images/home.jpeg') no-repeat center center;
     background-size: cover;
-    background-position: 55%;
+    background-position: 85%;
     height: 100vh;
     min-height: 480px;
     max-height: 1080px;
@@ -37,6 +37,7 @@ body {
     }
 }
 .ww-home-page .ww-wedding-announcement .ww-couple-name {
+    margin: 0;
     font-size: 70px;
 }
 @media (max-width: 576px) {
@@ -198,13 +199,6 @@ body {
     border: none;
     margin-bottom: 15px;
     border-radius: none;
-}
-
-@media (min-width: 1201px) {
-    .ww-photo-gallery .card-columns {
-        -moz-column-count: 3;
-        column-count: 3;
-    }
 }
 
 @media (max-width: 992px) {
